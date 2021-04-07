@@ -14,3 +14,22 @@ class  style 태그에서 지정할때  . 붙인다.
 class는 그룹핑 
 
 id는 단독적 구분, 예외처리 
+
+
+JS
+
+document.querySelector('선택할 태그 ')
+
+
+querySelector('css를 적용할 태그 ex:body ' ) :js 에서 css선택자를이용해서  태그를 선택할때 사용
+
+ 비교연산자
+=== 
+
+
+질문html 에서 <랑 &lt; 랑 뭔 차이?
+
+this 자기자신을 가리키는 키워드
+
+중복은 제거!!
+
