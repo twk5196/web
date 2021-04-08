@@ -5,12 +5,17 @@
     <title></title>
   </head>
   <body>
-    <input type="button"value="hello"onclick="alert('hi')" >
-    <input type="text" onchange="alert('changed')">
-    <input type="text" onkeydown="alert('onk')">
     <script>
-      document.write(1+1);
+      var array1 = [1,2,3,4,5];
+      var i =0;
+      while(i<array1.length){
+        document.write('<li><a href="index.html">'+array1[i]+ '</a></li>');
+
+
+        i = i+1;
+      }
+
     </script>
-    1<2
+
   </body>
 </html>

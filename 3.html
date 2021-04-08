@@ -15,12 +15,27 @@
       target.style.backgroundColor ='black';
       target.style.color='white';
       this.value = 'Day';
-    }
-    else{
-      target.style.backgroundColor ='white';
-      target.style.color='black';
-      this.value = 'Night';
-    }
+      var arr1 = document.querySelectorAll('a');
+        var i=0;
+        while( i<arr1.length){
+            arr1[i].style.color ='powderblue';
+            i=i+1;
+        }
+
+      }
+      else{
+        target.style.backgroundColor ='white';
+        target.style.color='black';
+        this.value = 'Night';
+
+        var arr1 = document.querySelectorAll('a');
+        var i=0;
+        while( i<arr1.length){
+            arr1[i].style.color ='blue';
+            i=i+1;
+        }
+
+      }
   ">
   <div>
     <ol>

@@ -1,0 +1,22 @@
+
+JS
+
+document.write( ); 는 c에서 printf() 같은 역할 
+
+js 에서 배열 문법  var 변수 =[   ,  , ];  대괄호 사용 
+
+반복문 
+c와 동일 
+
+while( ) { }   for도 있음 
+
+
+질문 <li> script 태그에서 document.write 쓰고 li 적용 어떻게? +  + 사용 
+
+js  document.write(  ) 에 다가 <a>태그 적용 
+
+ex : document.write('<li><a href="주소 ">'+ ~~~+'</a></li>' );
+
+
+콘솔창에서 출력 
+console.log( ) ;
