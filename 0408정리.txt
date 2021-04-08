@@ -20,3 +20,11 @@ ex : document.write('<li><a href="주소 ">'+ ~~~+'</a></li>' );
 
 콘솔창에서 출력 
 console.log( ) ;
+
+
+함수사용 :
+유지보수 용이 
+ 
+function 함수변수( 매개변수){
+~~~~
+}
