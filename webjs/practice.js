@@ -1,4 +1,5 @@
-var o1 ={name:'kim'};
-var o2 = Object.assign({},o1);
-o2.name='lee';
-console.log(o2,o1);
+const o1 = {name:'kim'};
+
+o1.name = 'lee';
+
+console.log(o1);
